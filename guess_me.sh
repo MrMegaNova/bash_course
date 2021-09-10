@@ -6,7 +6,7 @@ read -p "Devinez le nombre entre 0 et 99:" number
 
 while [ $number != $valeur1 ]
 do
-	if [ $number -lt $valeur1 ];
+	if [ $number -lt $valeur1 ]
 	then
 		echo "Le nombre est plus grand! Essayez encore."
 	else

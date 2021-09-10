@@ -2,15 +2,15 @@
 echo "Mon script démarre"
 read -p "nombre:" nombre 
 
-echo $nombre
+echo "$nombre"
 
 nombre1=10
 
 
-if [ $nombre -lt $nombre1 ];
+if [ "$nombre" -lt $nombre1 ]
 then
 	echo "$nombre est plus petit que $nombre1"
-elif [ $nombre = $nombre1 ];
+elif [ "$nombre" = $nombre1 ]
 then
 	echo "$nombre est égal à $nombre1"
 else
